@@ -1,0 +1,20 @@
+PODS:
+  - Gemini (1.4.0)
+  - Kingfisher (4.10.1)
+
+DEPENDENCIES:
+  - Gemini
+  - Kingfisher (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Gemini
+    - Kingfisher
+
+SPEC CHECKSUMS:
+  Gemini: 4ad915cca8805577fe3021e02feeca2b77dcdbfc
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+
+PODFILE CHECKSUM: 05e0c2815ae0d7bb567477c9685a2b242b2b9fc7
+
+COCOAPODS: 1.8.4

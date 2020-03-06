@@ -1,0 +1,6 @@
+module Pods_iTunesAlternativeApp {
+  umbrella header "Pods-iTunesAlternativeApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
