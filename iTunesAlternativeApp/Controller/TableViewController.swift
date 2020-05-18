@@ -58,7 +58,7 @@ class TableViewController: UIViewController {
     func filterTableView(index : Int) {
         switch index {
         case 0:
-            self.type = "all"
+            self.type = "music"
         case 1:
             self.type = "music"
         case 2:
@@ -116,8 +116,6 @@ extension TableViewController : UITableViewDataSource {
             cell.view.backgroundColor = .clear
             cell.contentView.backgroundColor = .clear
         }
-        
-       
         
         cell.backgroundColor = UIColor.white
         cell.layer.borderColor = UIColor.black.cgColor

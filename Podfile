@@ -4,6 +4,5 @@ target 'iTunesAlternativeApp' do
 
 
   pod 'Kingfisher', '~> 5.0'
-  pod 'Gemini'
 
 end

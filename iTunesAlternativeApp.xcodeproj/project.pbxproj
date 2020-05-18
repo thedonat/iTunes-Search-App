@@ -12,8 +12,6 @@
 		0084EC1323DAE36C00B8868D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0084EC1123DAE36C00B8868D /* TableViewCell.swift */; };
 		0084EC1423DAE36C00B8868D /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0084EC1223DAE36C00B8868D /* TableViewCell.xib */; };
 		0084EC1623DC59B000B8868D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0084EC1523DC59B000B8868D /* DetailsViewController.swift */; };
-		00BF826E240264DC0027F41B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BF826D240264DC0027F41B /* CollectionViewController.swift */; };
-		00BF8270240266430027F41B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BF826F240266430027F41B /* CollectionViewCell.swift */; };
 		00C0C3FB23D6D65100213E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C0C3FA23D6D65100213E75 /* AppDelegate.swift */; };
 		00C0C3FD23D6D65100213E75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C0C3FC23D6D65100213E75 /* SceneDelegate.swift */; };
 		00C0C3FF23D6D65100213E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C0C3FE23D6D65100213E75 /* ViewController.swift */; };
@@ -30,8 +28,6 @@
 		0084EC1123DAE36C00B8868D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		0084EC1223DAE36C00B8868D /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		0084EC1523DC59B000B8868D /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		00BF826D240264DC0027F41B /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
-		00BF826F240266430027F41B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		00C0C3F723D6D65100213E75 /* iTunesAlternativeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesAlternativeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C0C3FA23D6D65100213E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00C0C3FC23D6D65100213E75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		002610A62472DA12001A73FC /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				0084EC1123DAE36C00B8868D /* TableViewCell.swift */,
+				0084EC1223DAE36C00B8868D /* TableViewCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
 		004E40AD23ED4389008742AF /* Newtork */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,13 +93,13 @@
 			children = (
 				00C0C3FA23D6D65100213E75 /* AppDelegate.swift */,
 				00C0C3FC23D6D65100213E75 /* SceneDelegate.swift */,
+				002610A62472DA12001A73FC /* CustomCell */,
 				004E40AD23ED4389008742AF /* Newtork */,
 				0084EBFF23D9CF8B00B8868D /* ItunesMenager.swift */,
 				00C0C40E23D6D67D00213E75 /* Model */,
 				00C0C40F23D6D68C00213E75 /* View */,
 				00C0C41023D6D69400213E75 /* Controller */,
 				00C0C40323D6D65400213E75 /* Assets.xcassets */,
-				00C0C40523D6D65400213E75 /* LaunchScreen.storyboard */,
 				00C0C40823D6D65400213E75 /* Info.plist */,
 			);
 			path = iTunesAlternativeApp;
@@ -111,10 +116,8 @@
 		00C0C40F23D6D68C00213E75 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				00C0C40523D6D65400213E75 /* LaunchScreen.storyboard */,
 				00C0C40023D6D65100213E75 /* Main.storyboard */,
-				0084EC1123DAE36C00B8868D /* TableViewCell.swift */,
-				0084EC1223DAE36C00B8868D /* TableViewCell.xib */,
-				00BF826F240266430027F41B /* CollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -125,7 +128,6 @@
 				00C0C3FE23D6D65100213E75 /* ViewController.swift */,
 				0084EC0D23DAE15700B8868D /* TableViewController.swift */,
 				0084EC1523DC59B000B8868D /* DetailsViewController.swift */,
-				00BF826D240264DC0027F41B /* CollectionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -245,8 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00BF8270240266430027F41B /* CollectionViewCell.swift in Sources */,
-				00BF826E240264DC0027F41B /* CollectionViewController.swift in Sources */,
 				00C0C3FF23D6D65100213E75 /* ViewController.swift in Sources */,
 				0084EC0023D9CF8C00B8868D /* ItunesMenager.swift in Sources */,
 				0084EC1623DC59B000B8868D /* DetailsViewController.swift in Sources */,
@@ -407,7 +407,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Donat.iTunesAlternativeApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DonatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -427,7 +427,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Donat.iTunesAlternativeApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DonatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
